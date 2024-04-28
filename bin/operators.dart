@@ -32,6 +32,10 @@ void main() {
       password = "praji123";
   String uname = 'praji',
       pass = 'praji123';
+
+
+
+
   print('result = ${username == uname && password == pass}'); //answer false & true but this is logical&& operation the answer will be only come as false ellam true aaya mathrama ee operationil true enn kittu.
   print(username == uname || password == pass);
   print(!(username == uname) || password == pass);
