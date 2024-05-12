@@ -19,7 +19,7 @@ void main() {
     print('$b is greater');
   }
 
-  ///if else
+  ///if else demo programme
   print('enter ur age');
   int age = int.parse(stdin.readLineSync()!);
   if (age >= 18) {
@@ -36,7 +36,7 @@ void main() {
   int otp = 1123;
   if (username == "prajeesh" && password == '1234') {
     print('user name and password is correct waiting for otp verification');
-    if (otp == 113) {
+    if (otp == 1123) {
       print('login success welcome user');
     }
   }
