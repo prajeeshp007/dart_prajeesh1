@@ -34,4 +34,5 @@ void main(){
   }while(num<=10);
 
 
+
 }

@@ -14,12 +14,12 @@ void main() {
 void func1(int a,int b){
   print('$a, $b');    //here a and b are parameters/arguments/formal parameters/POSITIONAL parameters
 }
-void func2(String name,[int? age, int? phone ]){
+void func2(String name,[int? age, int? phone ]){ //optional positional. square bracket use aakunath optional positional
   print('fun2 = $name, $age, $phone');
 
 }
 ///2.optional named parameterised function
-void func3(String name,{int? age, int? phone}){
+void func3(String name,{int? age, int? phone}){ //optional named curly bracket use aakunath optional named
   print('func3 = $name,$age,$phone');
 }
 ///optional named parameterised function using //return
